@@ -1,0 +1,82 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "PT Sans";
+    background-color: black;
+    color: white;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.text-secondary {
+    color: rgba(150, 150, 150, 1)
+}
+
+
+.topbar-row {
+    padding: 5px 0;
+    font-size: small;
+}
+
+.nabar-row {
+    height: 80px;
+    background-color: rgba(15, 15, 15, 1);
+}
+
+
+.spaced {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar .nav {
+    padding: 0 15px;
+    vertical-align: middle;
+}
+
+.navbar .nav:hover {
+    color: white;
+    background-color: rgba(31, 31, 31, 1);
+    cursor: pointer;
+}
+
+.row1 {
+    height: 810px;
+    background-image: url("/img/row1-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.row1 .logo {
+    border: 2px solid white;
+    height: 320px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.row1 .logo .text1 {
+    text-decoration: underline;
+    font-family: Post No Bills Jaffna;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.row1 .logo .text2 {
+    font-size: 22px;
+} 
